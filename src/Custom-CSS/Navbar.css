@@ -1,0 +1,11 @@
+#basic-nav-dropdown {
+    color: white !important;
+  }
+  
+  .navbar-toggler-white .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+#navbar-toggler{
+    border-color: white;
+}

@@ -13,8 +13,8 @@ function RenderNavbar() {
         <Navbar.Toggle id= "navbar-toggler" aria-controls="basic-navbar-nav" className="navbar-toggler-white"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="text-white" href="#home">Home</Nav.Link>
-            <Nav.Link className="text-white" href="#link">Link</Nav.Link>
+            <Nav.Link className="text-white" href="/Home">Home</Nav.Link>
+            <Nav.Link className="text-white" href="/About">About</Nav.Link>
             <NavDropdown className="custom-dropdown" title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item  href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
