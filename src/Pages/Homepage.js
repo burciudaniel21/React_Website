@@ -1,10 +1,10 @@
 import React from 'react';
-
+import MainCard from '../Components/HomePage/Components/MainCard';
+import './Css/Universal.css';
 const HomePage = () => {
   return (
     <div>
-      <h1>Welcome to the Homepage</h1>
-      <p>This is the homepage of our React app.</p>
+      <MainCard/>
     </div>
   );
 };
